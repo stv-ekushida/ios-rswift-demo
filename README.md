@@ -27,6 +27,20 @@ R.generated.swift
 
 ## 5. Usage
 
+```
+// storyboardを取得して、viewControllerのインスタンス生成
+let secondVC = R.storyboard.secondViewController().instantiateInitialViewController()
+
+// 画像を取得
+R.image.next_64()
+
+// tableViewにnibを登録
+tableView.register(R.nib.secondListCell(), forCellReuseIdentifier: R.reuseIdentifier.secondListCell.identifier)
+
+// tableViewCellを生成
+let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.secondListCell, for: indexPath)
+```
+
 ## 環境
 
 |category | Version| 
