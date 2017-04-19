@@ -1,0 +1,18 @@
+platform :ios, '9.0'
+use_frameworks!
+
+def install_pods
+  pod 'R.swift', '3.2.0'
+end
+
+target 'ios-Rswift-demo' do
+  install_pods
+  # Pods for ios-Rswift-demo
+
+  target 'ios-Rswift-demoTests' do
+    install_pods
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

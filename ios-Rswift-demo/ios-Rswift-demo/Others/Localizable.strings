@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  ios-Rswift-demo
+
+  Created by OkuderaYuki on 2017/04/13.
+  Copyright © 2017年 YukiOkudera. All rights reserved.
+*/
+
+// MARK: - FirstViewController
+"FirstVCNavigationTitle" = "First";
